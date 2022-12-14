@@ -1,7 +1,7 @@
 # defines the Player class which stores name, win loss ratio, and win percent
 class Player():
   def __init__(self, name):
-    self.name = name.capitalize()
+    self.name = name.strip().capitalize()
     self.wlRat = [0 , 0]
     self.wpercent = 0.0
 
