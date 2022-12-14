@@ -108,7 +108,7 @@ class Board():
                   200,0,0,0,0,0,0,0,0,0,0,
                   210,0,0,0,0,0,0,0,0,0,0]
     self.orientation = 0
-    self.lives = 1#7
+    self.lives = 17
     self.used = []
     
     os.system("clear")
